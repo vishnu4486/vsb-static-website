@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My AWS Website</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      text-align: center;
+    }
+
+    header {
+      background: #232f3e;
+      color: white;
+      padding: 20px;
+    }
+
+    main {
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      background: #ff9900;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+
+    footer {
+      background: #232f3e;
+      color: white;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h2>My AWS Website</h2>
+  </header>
+
+  <main>
+    <h1>Hello, AWS! 👋</h1>
+
+    <p>
+      My first single-page website hosted using Amazon S3.
+    </p>
+
+    <button onclick="showMessage()">
+      Click Me
+    </button>
+  </main>
+
+  <footer>
+    <p>Learning AWS S3 Static Website Hosting</p>
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("My website is working successfully!");
+    }
+  </script>
+
+</body>
+</html>
